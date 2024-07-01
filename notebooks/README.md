@@ -33,10 +33,11 @@ hls4ml seamlessly talks to QKeras, making our jobs way easier for us, but there 
 
 We only assume that you have followed the previous QCD School tutorials, and especially set up the python container. You can start it again with
 ```
-$ docker start -i qcd-school
-cmsusr@40ffea690e46:/code$ jupyter-lab --ip=0.0.0.0 --no-browser
+$ docker start -i my_python #you should now see something like cmsusr@40ffea690e46:/code$ 
+jupyter-lab --ip=0.0.0.0 --no-browser
 ```
 Then clone this repository:
 ```
-git clone
+git clone https://github.com/thaarres/qcd_school_ml.git
+cd qcd_school_ml/
 ```
